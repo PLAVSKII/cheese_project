@@ -44,6 +44,108 @@ header .header-wrapper__banner {
   background-size: cover;
 }
 
+.main {
+  max-width: 1440px;
+}
+.main h1.sec__name {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding: 67px 0 38px;
+}
+.main h1.sec__name-left {
+  text-align: left;
+}
+.main p.sec__block {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+.main p.sec__block-dop {
+  margin-bottom: 130px;
+}
+.main hr.line {
+  margin: 0;
+}
+.main .sec__delivery {
+  margin: 55px 0 93px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .delivry__eclipse {
+  width: 277px;
+  height: 337px;
+  border-radius: 337px;
+  background: #F9B97D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  color: #FFF;
+}
+.main .delivery__text {
+  max-width: 1120px;
+}
+.main .sec__comments {
+  margin: 114px 0 199px;
+}
+.main .sec__comments .comment__item {
+  display: flex;
+  align-items: center;
+  margin: 65px auto;
+}
+.main .sec__comments .comment__item p.buyer-name {
+  font-size: 24px;
+  padding-right: 3px;
+}
+.main .sec__comments .comment__item .comnt {
+  width: 75%;
+  border-radius: 30px;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+.main .sec__comments .comment__item .comnt p {
+  padding: 3px 0 3px 22px;
+}
+.main .sec__comments .comment__item .rating {
+  max-height: 36px;
+}
+.main .sec__news {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+.main .sec__news .news__item {
+  max-width: 460px;
+  font-size: 24px;
+}
+.main .sec__news .news__item p.news__name {
+  padding-top: 26px;
+  color: #FF4D01;
+}
+.main .sec__news .news__item p.news__descr {
+  padding-bottom: 12px;
+}
+.main .sec__news .news__item button {
+  width: 202px;
+  height: 49px;
+  border-radius: 12px;
+  background: #FFC692;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+}
+.main .sec__news .news__item button:active {
+  background: #d89c65;
+}
+.main .sec__news .news__item button:hover {
+  transform: scale(0.965);
+  transition: all 0.12s;
+}
+
 footer {
   background: #FFC692;
   display: flex;
