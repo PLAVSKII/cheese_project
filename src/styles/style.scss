@@ -48,7 +48,7 @@ header{
     }
 }
 
-
+//Главная страница
 .main{
     max-width: 1440px;
     h1.sec__name{
@@ -153,6 +153,40 @@ header{
 }
 
 
+//Каталог 
+.main{
+    .sec__catalog{
+        margin: 211px 0 119px;
+        display: flex;
+        flex-wrap: wrap;
+        .catalog__prod{
+            max-width: 428px;
+            font-size: 32px;
+            .prod-descr{
+                display: flex;
+                flex-wrap: wrap;
+                height: 250px;
+                p.prod__name{
+                    text-decoration: underline;
+                }
+                p.prod_price{
+                    text-align: left;
+                }
+            }
+           
+        }
+    }
+    .sec_blogs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        img{
+            margin-bottom: 39px;
+        }
+    }
+    
+}
 
 
 footer{
