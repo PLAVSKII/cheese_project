@@ -6,7 +6,73 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./styles/style.css")
     body
-        include modules/header
+        header
+            .header-wrapper
+                .header-wrapper__logo
+                    img(src=" ./img/image 1.svg", alt="")
+                .header-wrapper__main-menu
+                    ul
+                        li 
+                            a(href="./index.html") На главную 
+                        li 
+                            a(href="./catalog.html") Каталог
+                        li 
+                            a(href="./news.html") Новости
+        .bg
+            .main
+                h1.sec__name Новости
+                .sec__news-tablets
+                    .news__tablet
+                        p.tablet__name Сыры группы Паста Филата (Pasta Filata)
+                        .tablet__block
+                            img(src="./img/news-page_1.png", alt="")
+                            .block__text
+                                p В Италии есть группа сыров, которая называется “паста филата” (pasta filata). В этой статье мы расскажем, какие именно это сыры. А также дадим ссылки на их рецепты.
+                                button Прочитать подробнее
+                    .news__tablet
+                        p.tablet__name Рецепт итальянского сыра качокавалло
+                        .tablet__block
+                            img(src="./img/news-page_2.png", alt="")
+                            .block__text
+                                p Качокавалло представляет собой традиционный мягкий вытяжной сыр в плотной кожуре. Сыр имеет вид капли (а некоторые говорят – кегли), по вкусу очень похож на сладкий итальянский сыр Проволоне.
+                                button Прочитать подробнее
+                    .news__tablet
+                        p.tablet__name Рецепт сыра Халлуми
+                        .tablet__block
+                            img(src="./img/news-page_3.png", alt="")
+                            .block__text
+                                p Какой сыр лучше всего подходит для пикника? Разве не тот, который можно положить на гриль? Да-да, именно халлуми можно обжарить на гриле! Читайте наш пошаговый рецепт. Пробуйте и наслаждайтесь!
+                                button Прочитать подробнее
+                    .news__tablet
+                        p.tablet__name Рецепт сыра Гауда 
+                        .tablet__block
+                            img(src="./img/news-page_4.png", alt="")
+                            .block__text
+                                p В Пошаговый рецепт приготовления известного голландского сыра «Гауда», который во многом стал прообразом большинства известных российских сыров (сыры голландской группы типа «Пошехонского», «Российского», «Костромского»).
+                                button Прочитать подробнее
         .main
-           
+            .sec__vacancy
+                .vacancy__block
+                    p.nameing Работа у нас поваром <br><br>
+                    p.salary 60 000 - 100 000 тыс. руб. <br><br>
+                    p.description Отличный и дружный коллектив <br><br>
+                    .btns
+                        button.echo Откликнуться 
+                        button.contact Показать контакты
+                .vacancy__block
+                    p.nameing Работа у нас заготовщиком<br><br>
+                    p.salary 20 000 - 35 000 тыс. руб. <br><br>
+                    p.description Хорошие условия содержания продуктов и хорошие условия для самой работы <br><br>
+                    .btns
+                        button.echo Откликнуться 
+                        button.contact Показать контакты
+                .vacancy__block
+                    p.nameing Работа у нас поставщиком <br><br>
+                    p.salary 50 000 - 90 000 тыс. руб. руб. <br><br>
+                    p.description Наша компания производит самые лучшие сыры и поэтому мы ищем лучшего поставщика <br><br>
+                    .btns
+                        button.echo Откликнуться 
+                        button.contact Показать контакты
+                
+                
         include modules/footer

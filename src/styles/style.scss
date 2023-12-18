@@ -189,6 +189,126 @@ header{
 }
 
 
+//Новости
+.bg{
+    width: 100%;
+    height: 210vh;
+    background-color: #FFE4CC;
+    .main{
+        .sec__news-tablets{
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            .news__tablet{
+                width: 100%;
+                border: 1px solid #000;
+                background: #FFF;
+                margin-bottom: 59px;
+                p.tablet__name{
+                    font-size: 36px;
+                    padding: 15px 20px 40px;
+                }
+                .tablet__block{
+                    display: flex;
+                    justify-content: space-between;
+                    img{
+                        padding-bottom: 37px;
+                    }
+                    .block__text{
+                        position: relative;
+                        font-size: 24px;
+                        max-width: 607px;
+                        button{
+                            position: absolute;
+                            right: 87px;
+                            bottom: 65px;
+                            font-size: 16px;
+                            font-weight: 400;
+                            width: 227px;
+                            height: 36px;
+                            border-radius: 20px;
+                            background: #FFC794;
+                            cursor: pointer;
+                            border: none;
+                        }
+                        button:active{
+                            background: #d89c65;
+                        }
+                        button:hover{
+                            transform: scale(0.965);
+                            transition: all 0.12s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Работа
+.main{
+    .sec__vacancy{
+        margin: 87px 0 170px;
+        width: 100%;
+        .vacancy__block{
+            position: relative;
+            width: 100%;
+            border: 1px solid #000;
+            padding: 27px;
+            margin-bottom: 59px;
+            p.nameing{
+                padding: 5px 0 30px;
+                font-size: 48px;
+                color: #FC8F41;
+            }
+            p.salary{
+                font-size: 32px;
+                padding-bottom: 10px;
+            }
+            p.description{
+                font-size: 36px;
+                padding-bottom: 120px;
+            }
+            .btns{
+                position: absolute;
+                left: 25px;
+                bottom: 40px;
+                margin-bottom: 35px;
+                .echo{
+                    width: 403px;
+                    height: 72px;
+                    border-radius: 10px;
+                    border: 1px solid #000;
+                    background: #FFC794;
+                    font-size: 32px;
+                    cursor: pointer;
+                    margin-right: 73px;
+                }
+                .contact{
+                    width: 403px;
+                    height: 72px;
+                    border-radius: 10px;
+                    border: 1px solid #000;
+                    font-size: 32px;
+                    background: #FFF;
+                    cursor: pointer;
+                }
+                button:active{
+                    background: #d89c65;
+                }
+                .contact:active{
+                    background: #d3d3d3;
+                }
+                button:hover{
+                    transform: scale(0.965);
+                    transition: all 0.12s;
+                }
+            }
+        }
+    }
+}
+
+
 footer{
     background: #FFC692;
     display: flex;
