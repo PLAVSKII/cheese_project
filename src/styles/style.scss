@@ -546,3 +546,420 @@ footer{
     }
 }
 }
+
+@media (max-width:768px) {
+    header{
+        .header-wrapper{
+            max-width: 700px;
+            .header-wrapper__logo{
+                img{
+                    width: 112px;
+                    height: 115px;
+                }
+            }
+            .header-wrapper__main-menu{
+                max-width: 520px;
+                ul{
+                    li{
+                        margin-right: 83px;
+                        a{
+                            width: 113px;
+                            height: 52px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .header-wrapper__banner{
+            height: 404px;
+        }
+    }
+
+
+//Главная страница
+.main{
+    max-width: 700px;
+    h1.sec__name{
+        font-size: 24px;
+    }
+    p.sec__block{
+        font-size: 13px;
+    }
+    .sec__delivery{
+        font-size: 14px;
+    }
+    .delivry__eclipse{
+        width: 155px;
+        height: 155px;
+        font-size: 15px;
+    }
+    .delivery__text{
+        max-width: 534px;
+    }
+    .sec__comments{
+        margin: 114px 0 199px;
+        .comment__item{
+            margin: 65px auto;
+            p.buyer-name{
+                font-size: 14px;
+                padding-right: 3px;
+            }
+            .comnt{
+                font-size: 10px;
+                p{
+                    padding: 3px 0  3px 8px;
+                }
+            }
+            .rating{
+                max-height: 30px;
+            }
+        }
+    }
+    .sec__news{
+        .news__item{
+            max-width: 191px;
+            font-size: 12px;
+            img{
+                width: 151px;
+                height: 103px;
+            }
+            p.news__name{
+                padding-top: 12px;
+            }
+
+            button{
+                width: 130px;
+                height: 27px;
+                margin-right: 20px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+//Каталог 
+.main{
+    .sec__catalog{
+        margin-top: 100px;
+        .catalog__prod{
+            img{
+                width: 177px;
+                height: 179px;
+            }
+            max-width: 193px;
+            font-size: 15px;
+            .prod-descr{
+                height: 126px;
+            }
+        }
+    }
+    .sec_blogs{
+        margin-bottom: 80px;
+        img{
+            margin-bottom: 17px;
+            width: 349px;
+            height: 170px;
+        }
+    }
+    
+}
+
+
+//Новости
+.bg{
+    width: 100%;
+    height: 240vh;
+    background-color: #FFE4CC;
+    .main{
+        .sec__news-tablets{
+            max-width: 650px;
+            .news__tablet{
+                p.tablet__name{
+                    font-size: 20px;
+                    padding: 15px 20px 40px;
+                }
+                .tablet__block{
+                    img{
+                        padding-bottom: 37px;
+                        width: 245px;
+                        height: 196px;
+                    }
+                    .block__text{
+                        font-size: 16px;
+                        max-width: 324px;
+                        button{
+                            right: 60px;
+                            bottom: 40px;
+                            font-size: 8px;
+                            width: 121px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Работа
+.main{
+    .sec__vacancy{
+        .vacancy__block{
+            padding: 27px;
+            margin-bottom: 20px;
+            p.nameing{
+                padding: 5px 0 30px;
+                font-size: 27px;
+            }
+            p.salary{
+                font-size: 15px;
+                padding-bottom: 10px;
+            }
+            p.description{
+                font-size: 16px;
+                padding-bottom: 60px;
+            }
+            .btns{
+                left: 25px;
+                bottom: 15px;
+                margin-bottom: 35px;
+                .echo{
+                    width: 162px;
+                    height: 32px;
+                    font-size: 15px;
+                    margin-right: 40px;
+                }
+                .contact{
+                    width: 162px;
+                    height: 32px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+    footer{
+    height: 141px;
+    .footer-wrapper{
+        h3, p, span, ul li{
+            font-size: 10px;
+            font-weight: 400;
+        }
+    }
+}
+}
+
+/**/
+@media (max-width:480px) {
+    header{
+        .header-wrapper{
+            max-width: 700px;
+            .header-wrapper__logo{
+                img{
+                    width: 112px;
+                    height: 115px;
+                }
+            }
+            .header-wrapper__main-menu{
+                max-width: 520px;
+                ul{
+                    li{
+                        margin-right: 83px;
+                        a{
+                            width: 113px;
+                            height: 52px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .header-wrapper__banner{
+            height: 404px;
+        }
+    }
+
+
+//Главная страница
+.main{
+    max-width: 700px;
+    h1.sec__name{
+        font-size: 24px;
+    }
+    p.sec__block{
+        font-size: 13px;
+    }
+    .sec__delivery{
+        font-size: 14px;
+    }
+    .delivry__eclipse{
+        width: 155px;
+        height: 155px;
+        font-size: 15px;
+    }
+    .delivery__text{
+        max-width: 534px;
+    }
+    .sec__comments{
+        margin: 114px 0 199px;
+        .comment__item{
+            margin: 65px auto;
+            p.buyer-name{
+                font-size: 14px;
+                padding-right: 3px;
+            }
+            .comnt{
+                font-size: 10px;
+                p{
+                    padding: 3px 0  3px 8px;
+                }
+            }
+            .rating{
+                max-height: 30px;
+            }
+        }
+    }
+    .sec__news{
+        .news__item{
+            max-width: 191px;
+            font-size: 12px;
+            img{
+                width: 151px;
+                height: 103px;
+            }
+            p.news__name{
+                padding-top: 12px;
+            }
+
+            button{
+                width: 130px;
+                height: 27px;
+                margin-right: 20px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+//Каталог 
+.main{
+    .sec__catalog{
+        margin-top: 100px;
+        .catalog__prod{
+            img{
+                width: 177px;
+                height: 179px;
+            }
+            max-width: 193px;
+            font-size: 15px;
+            .prod-descr{
+                height: 126px;
+            }
+        }
+    }
+    .sec_blogs{
+        margin-bottom: 80px;
+        img{
+            margin-bottom: 17px;
+            width: 349px;
+            height: 170px;
+        }
+    }
+    
+}
+
+
+//Новости
+.bg{
+    width: 100%;
+    height: 240vh;
+    background-color: #FFE4CC;
+    .main{
+        .sec__news-tablets{
+            max-width: 650px;
+            .news__tablet{
+                p.tablet__name{
+                    font-size: 20px;
+                    padding: 15px 20px 40px;
+                }
+                .tablet__block{
+                    img{
+                        padding-bottom: 37px;
+                        width: 245px;
+                        height: 196px;
+                    }
+                    .block__text{
+                        font-size: 16px;
+                        max-width: 324px;
+                        button{
+                            right: 60px;
+                            bottom: 40px;
+                            font-size: 8px;
+                            width: 121px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Работа
+.main{
+    .sec__vacancy{
+        .vacancy__block{
+            padding: 27px;
+            margin-bottom: 20px;
+            p.nameing{
+                padding: 5px 0 30px;
+                font-size: 27px;
+            }
+            p.salary{
+                font-size: 15px;
+                padding-bottom: 10px;
+            }
+            p.description{
+                font-size: 16px;
+                padding-bottom: 60px;
+            }
+            .btns{
+                left: 25px;
+                bottom: 15px;
+                margin-bottom: 35px;
+                .echo{
+                    width: 162px;
+                    height: 32px;
+                    font-size: 15px;
+                    margin-right: 40px;
+                }
+                .contact{
+                    width: 162px;
+                    height: 32px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+    footer{
+    height: 141px;
+    .footer-wrapper{
+        h3, p, span, ul li{
+            font-size: 10px;
+            font-weight: 400;
+        }
+    }
+}
+}
