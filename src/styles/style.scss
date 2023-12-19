@@ -755,73 +755,72 @@ footer{
 }
 }
 
-/**/
+
 @media (max-width:480px) {
     header{
         .header-wrapper{
-            max-width: 700px;
+            max-width: 460px;
             .header-wrapper__logo{
                 img{
-                    width: 112px;
-                    height: 115px;
+                    width: 101px;
+                    height: 91px;
                 }
             }
             .header-wrapper__main-menu{
-                max-width: 520px;
                 ul{
                     li{
-                        margin-right: 83px;
+                        margin-right: 39px;
                         a{
-                            width: 113px;
+                            width: 79px;
                             height: 52px;
-                            font-size: 15px;
+                            font-size: 11px;
                         }
                     }
                 }
             }
         }
         .header-wrapper__banner{
-            height: 404px;
+            height: 301px;
         }
     }
 
 
 //Главная страница
 .main{
-    max-width: 700px;
+    max-width: 450px;
     h1.sec__name{
-        font-size: 24px;
+        font-size: 16px;
     }
     p.sec__block{
-        font-size: 13px;
+        font-size: 11px;
     }
     .sec__delivery{
-        font-size: 14px;
+        font-size: 11px;
     }
     .delivry__eclipse{
-        width: 155px;
-        height: 155px;
+        width: 96px;
+        height: 96px;
         font-size: 15px;
     }
     .delivery__text{
-        max-width: 534px;
+        max-width: 334px;
     }
     .sec__comments{
-        margin: 114px 0 199px;
+        margin: 30px 0 50px;
         .comment__item{
-            margin: 65px auto;
+            margin: 45px auto;
             p.buyer-name{
-                font-size: 14px;
+                font-size: 12px;
                 padding-right: 3px;
             }
             .comnt{
-                font-size: 10px;
+                font-size: 8px;
                 p{
                     padding: 3px 0  3px 8px;
                 }
             }
             .rating{
-                max-height: 30px;
+                max-height: 25px;
             }
         }
     }
@@ -836,7 +835,6 @@ footer{
             p.news__name{
                 padding-top: 12px;
             }
-
             button{
                 width: 130px;
                 height: 27px;
@@ -954,12 +952,43 @@ footer{
 
 
     footer{
-    height: 141px;
+    height: 250px;
     .footer-wrapper{
+        width: 400px;
+        flex-wrap: wrap;
         h3, p, span, ul li{
             font-size: 10px;
             font-weight: 400;
         }
     }
 }
+}
+
+@media (max-width:320px){
+    header{
+        .header-wrapper{
+            max-width: 300px;
+            .header-wrapper__logo{
+                img{
+                    width: 63px;
+                    height: 51px;
+                }
+            }
+            .header-wrapper__main-menu{
+                ul{
+                    li{
+                        margin-right: 7px;
+                        a{
+                            width: 68px;
+                            height: 21px;
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .header-wrapper__banner{
+            height: 301px;
+        }
+    }
 }

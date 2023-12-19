@@ -650,67 +650,63 @@ footer .footer-wrapper ul {
     font-weight: 400;
   }
 }
-/**/
 @media (max-width: 480px) {
   header .header-wrapper {
-    max-width: 700px;
+    max-width: 460px;
   }
   header .header-wrapper .header-wrapper__logo img {
-    width: 112px;
-    height: 115px;
-  }
-  header .header-wrapper .header-wrapper__main-menu {
-    max-width: 520px;
+    width: 101px;
+    height: 91px;
   }
   header .header-wrapper .header-wrapper__main-menu ul li {
-    margin-right: 83px;
+    margin-right: 39px;
   }
   header .header-wrapper .header-wrapper__main-menu ul li a {
-    width: 113px;
+    width: 79px;
     height: 52px;
-    font-size: 15px;
+    font-size: 11px;
   }
   header .header-wrapper__banner {
-    height: 404px;
+    height: 301px;
   }
   .main {
-    max-width: 700px;
+    max-width: 450px;
   }
   .main h1.sec__name {
-    font-size: 24px;
+    font-size: 16px;
   }
   .main p.sec__block {
-    font-size: 13px;
+    font-size: 11px;
   }
   .main .sec__delivery {
-    font-size: 14px;
+    font-size: 11px;
   }
   .main .delivry__eclipse {
-    width: 155px;
-    height: 155px;
+    width: 96px;
+    height: 96px;
     font-size: 15px;
   }
   .main .delivery__text {
-    max-width: 534px;
+    max-width: 334px;
   }
   .main .sec__comments {
-    margin: 114px 0 199px;
+    margin: 30px 0 50px;
   }
   .main .sec__comments .comment__item {
-    margin: 65px auto;
+    margin: 45px auto;
   }
   .main .sec__comments .comment__item p.buyer-name {
-    font-size: 14px;
+    font-size: 12px;
     padding-right: 3px;
   }
   .main .sec__comments .comment__item .comnt {
-    font-size: 10px;
+    font-size: 8px;
   }
   .main .sec__comments .comment__item .comnt p {
     padding: 3px 0 3px 8px;
   }
   .main .sec__comments .comment__item .rating {
-    max-height: 30px;
+    max-height: 25px;
   }
   .main .sec__news .news__item {
     max-width: 191px;
@@ -812,10 +808,34 @@ footer .footer-wrapper ul {
     font-size: 15px;
   }
   footer {
-    height: 141px;
+    height: 250px;
+  }
+  footer .footer-wrapper {
+    width: 400px;
+    flex-wrap: wrap;
   }
   footer .footer-wrapper h3, footer .footer-wrapper p, footer .footer-wrapper span, footer .footer-wrapper ul li {
     font-size: 10px;
     font-weight: 400;
+  }
+}
+@media (max-width: 320px) {
+  header .header-wrapper {
+    max-width: 300px;
+  }
+  header .header-wrapper .header-wrapper__logo img {
+    width: 63px;
+    height: 51px;
+  }
+  header .header-wrapper .header-wrapper__main-menu ul li {
+    margin-right: 7px;
+  }
+  header .header-wrapper .header-wrapper__main-menu ul li a {
+    width: 68px;
+    height: 21px;
+    font-size: 8px;
+  }
+  header .header-wrapper__banner {
+    height: 301px;
   }
 }/*# sourceMappingURL=style.css.map */
