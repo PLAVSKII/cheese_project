@@ -8,17 +8,19 @@
 
 header{
     .header-wrapper{
-        width: 1613px;
+        max-width: 1613px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .header-wrapper__main-menu{
+            max-width: 1114px;
             ul{
-            width: 1114px;
+            width: 100%;
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
             li{
                 list-style-type: none;
+                margin-right: 190px;
                 a{
                     text-decoration: none;
                     display: flex;
@@ -35,6 +37,9 @@ header{
                     font-weight: 400;
                     line-height: normal;
                 }
+            }
+            li:nth-child(3){
+                margin-right: 0;
             }
         }
         }
@@ -325,4 +330,117 @@ footer{
             padding-left: 28px;
         }
     }
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    header{
+        .header-wrapper{
+            max-width: 950px;
+            .header-wrapper__logo{
+                img{
+                    width: 151px;
+                    height: 137px;
+                }
+            }
+            .header-wrapper__main-menu{
+                max-width: 750px;
+                ul{
+                    li{
+                        margin-right: 85px;
+                        a{
+                            width: 153px;
+                            height: 62px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .header-wrapper__banner{
+            height: 568px;
+        }
+    }
+
+
+//Главная страница
+.main{
+    max-width: 950px;
+    h1.sec__name{
+        font-size: 24px;
+        padding: 50px 0 25px;
+    }
+    p.sec__block{
+        font-size: 16px;
+        margin-bottom: 55px;
+    }
+    .sec__delivery{
+        margin: 55px 0 67px;
+        font-size: 16px;
+    }
+    .delivry__eclipse{
+        width: 207px;
+        height: 207px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .delivery__text{
+        max-width: 722px;
+    }
+    .sec__comments{
+        margin: 114px 0 199px;
+        .comment__item{
+            margin: 65px auto;
+            p.buyer-name{
+                font-size: 16px;
+                padding-right: 3px;
+            }
+            .comnt{
+                font-size: 12px;
+                p{
+                    padding: 3px 0  3px 12px;
+                }
+            }
+            .rating{
+                max-height: 36px;
+            }
+        }
+    }
+    .sec__news{
+        .news__item{
+            max-width: 258px;
+            font-size: 14px;
+            img{
+                width: 204px;
+                height: 123px;
+            }
+            p.news__name{
+                padding-top: 18px;
+            }
+
+            button{
+                width: 177px;
+                height: 32px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
+    footer{
+    height: 225px;
+    .footer-wrapper{
+        h3, p, span, ul li{
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
 }
